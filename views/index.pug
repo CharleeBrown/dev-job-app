@@ -3,13 +3,6 @@ extends layout
 block content
   div(id="container")
     div(id="innerContainer")
-      table(id="mainTable" onload="getData()")
-  script.
-    function getData(){
-      //Pull data from https://jsonplaceholder.typicode.com/users
-      // Then look up the orders from the users.
-      fetch('https://jsonplaceholder.typicode.com/users')
-      .then(data => function(){
-        console.log(data);
-      })
-    }
+      table(id="mainTable")
+        tr(id="tableRow")
+    div(style="height:30px;width:30px;background-color:black;")

@@ -6,3 +6,8 @@ body {
 a {
   color: #00B7FF;
 }
+
+#mainTable{
+  border-collapse:collapse;
+  border:1px black solid;
+}
